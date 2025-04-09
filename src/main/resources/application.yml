@@ -1,0 +1,30 @@
+# DEFAULT profile (porta 5000)
+server:
+  port: 5000
+
+spring:
+  config:
+    activate:
+      on-profile: default
+
+---
+
+# PROD profile (porta 7070)
+server:
+  port: 7070
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+---
+
+# TEST profile (porta 4000)
+server:
+  port: 4000
+
+spring:
+  config:
+    activate:
+      on-profile: test

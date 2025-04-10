@@ -16,9 +16,6 @@ public class RandomSumController {
         double b = Math.random() * 100;
         double sum = a + b;
 
-        // Aggiungi un log di debug
-        System.out.println("Somma generata: " + sum);
-
         // Restituisce la somma formattata a 2 decimali
         return String.format("Sum: %.2f", sum);
     }
